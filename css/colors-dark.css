@@ -11,6 +11,7 @@ a, a:visited, a:active {
 a:hover {
 	background-color: #073642;
 	border-color: #073642;
+	color: #2aa198;
 }
 
 h1, h2, h3 {

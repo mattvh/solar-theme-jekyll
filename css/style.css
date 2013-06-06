@@ -202,3 +202,20 @@ img.center {
 	text-align: center;
 	margin: 0 auto 1em auto;
 }
+
+
+
+/*** Pagination ***/
+.postnavigation {
+	padding-top: 10px;
+    text-align: center;
+    font-size: 0.85em;
+}
+
+.postnavigation .left {
+	float: left;
+}
+
+.postnavigation .right {
+	float: right;
+}

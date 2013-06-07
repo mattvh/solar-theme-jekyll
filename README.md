@@ -3,7 +3,7 @@ Solar Theme for Jekyll
 
 A stylish theme for [Jekyll](http://jekyllrb.com/) blogs, based on the [Solarized](http://ethanschoonover.com/solarized) color palette.
 
-![Screenshot](https://raw.github.com/redwallhp/solar-theme-jekyll/screenshots/solar-theme-screenshot.png)
+![Screenshot](http://i.imgur.com/UnnRhkt.png)
 
 
 Features

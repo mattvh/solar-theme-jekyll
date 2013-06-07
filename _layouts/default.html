@@ -10,8 +10,8 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
-  <link href="/assets/css/style.css" rel="stylesheet" />
-  <link href="/assets/css/colors-dark.css" rel="stylesheet" />
+  <link href="{{ site.url }}/assets/css/style.css" rel="stylesheet" />
+  <link href="{{ site.url }}/assets/css/colors-dark.css" rel="stylesheet" />
 
 </head>
 
@@ -20,7 +20,7 @@
 
 
   <header id="header">
-    <h1><a href="/"><i class="icon-sun"></i> {{ site.name }}</a></h1>
+    <h1><a href="{{ site.url }}/"><i class="icon-sun"></i> {{ site.name }}</a></h1>
     <p>{{ site.description }}</p>
   </header>
 
@@ -33,11 +33,11 @@
     <div id="sidebar">
       <nav>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/archives">Archive</a></li>
-          <li><a href="/about">About</a></li>
+          <li><a href="{{ site.url }}/">Home</a></li>
+          <li><a href="{{ site.url }}/archives">Archive</a></li>
+          <li><a href="{{ site.url }}/about">About</a></li>
           <li><a href="http://twitter.com/redwall_hp">Twitter</a></li>
-          <li><a href="/feed.xml">RSS Feed</a></li>
+          <li><a href="{{ site.url }}/feed.xml">RSS Feed</a></li>
         </ul>
       </nav>
     </div>
@@ -61,7 +61,7 @@
 
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-  <script src="/assets/js/jquery.mobilemenu.min.js"></script>
+  <script src="{{ site.url }}/assets/js/jquery.mobilemenu.min.js"></script>
 
   <script>
     $(document).ready(function(){

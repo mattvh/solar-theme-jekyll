@@ -19,3 +19,9 @@ If you're wanting to replace the theme of an existing Jekyll blog, either option
 5. `index.xml`
 
 You'll also want to compare Solar's `_config.yml` with your own, making any appropriate changes.
+
+
+License
+---------
+
+GPLv2 or higher

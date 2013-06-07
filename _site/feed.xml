@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Solar Theme</title>
+		<description>A stylish blog using the Solarized color palette</description>
+		<link>http://example.org</link>
+		<atom:link href="http://example.org/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>France Removes Internet Cut-Off Threat From its Anti-Piracy Law</title>
+				<description></description>
+				<pubDate>Wed, 05 Jun 2013 16:33:11 -0400</pubDate>
+				<link>http://example.org/2013/06/05/france-removes-internet-cut-off/</link>
+				<guid isPermaLink="true">http://example.org/2013/06/05/france-removes-internet-cut-off/</guid>
+			</item>
+		
+			<item>
+				<title>Jekyll Documentation</title>
+				<description></description>
+				<pubDate>Wed, 05 Jun 2013 16:03:11 -0400</pubDate>
+				<link>http://example.org/2013/06/05/jekyll-documentation/</link>
+				<guid isPermaLink="true">http://example.org/2013/06/05/jekyll-documentation/</guid>
+			</item>
+		
+			<item>
+				<title>Welcome to Jekyll!</title>
+				<description>&lt;p&gt;You&amp;#8217;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes! To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='ruby'&gt;&lt;span class='k'&gt;def&lt;/span&gt; &lt;span class='nf'&gt;print_hi&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nb'&gt;name&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+  &lt;span class='nb'&gt;puts&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class='si'&gt;#{&lt;/span&gt;&lt;span class='nb'&gt;name&lt;/span&gt;&lt;span class='si'&gt;}&lt;/span&gt;&lt;span class='s2'&gt;&amp;quot;&lt;/span&gt;
+&lt;span class='k'&gt;end&lt;/span&gt;
+&lt;span class='n'&gt;print_hi&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s1'&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+&lt;span class='c1'&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Check out the &lt;a href='http://jekyllrb.com'&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href='https://github.com/mojombo/jekyll'&gt;Jekyll&amp;#8217;s GitHub repo&lt;/a&gt;.&lt;/p&gt;</description>
+				<pubDate>Wed, 05 Jun 2013 13:06:25 -0400</pubDate>
+				<link>http://example.org/2013/06/05/welcome-to-jekyll/</link>
+				<guid isPermaLink="true">http://example.org/2013/06/05/welcome-to-jekyll/</guid>
+			</item>
+		
+	</channel>
+</rss>

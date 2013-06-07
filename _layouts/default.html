@@ -4,9 +4,10 @@
 
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
 
-  <link href="/css/style.css" rel="stylesheet" />
-  <link href="/css/colors-dark.css" rel="stylesheet" />
+  <link href="/assets/css/style.css" rel="stylesheet" />
+  <link href="/assets/css/colors-dark.css" rel="stylesheet" />
 
 </head>
 
@@ -56,6 +57,17 @@
   <footer id="footer">
     <p class="copyright">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.name }}. Powered by <a href="http://jekyllrb.com">Jekyll</a>, theme by <a href="http://www.webmaster-source.com">Matt Harzewski</a></p>
   </footer>
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="/assets/js/jquery.mobilemenu.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+    });
+  </script>
 
 
 

@@ -6,6 +6,10 @@
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width">
 
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
   <link href="/assets/css/style.css" rel="stylesheet" />
   <link href="/assets/css/colors-dark.css" rel="stylesheet" />
 
@@ -16,7 +20,7 @@
 
 
   <header id="header">
-    <h1><a href="/">&#9728; {{ site.name }}</a></h1>
+    <h1><a href="/"><i class="icon-sun"></i> {{ site.name }}</a></h1>
     <p>{{ site.description }}</p>
   </header>
 
@@ -41,11 +45,7 @@
 
 
     <div id="content">
-
-
       {{ content }}
-
-
     </div>
 
 

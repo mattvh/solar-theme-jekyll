@@ -3,6 +3,17 @@ Solar Theme for Jekyll
 
 A stylish theme for [Jekyll](http://jekyllrb.com/) blogs, based on the [Solarized](http://ethanschoonover.com/solarized) color palette.
 
+![Screenshot](https://raw.github.com/redwallhp/solar-theme-jekyll/screenshots/solar-theme-screenshot.png)
+
+
+Features
+-------
+
+* **Two color schemes** — One for Solarized Dark and one for Solarized Light. Just swap the reference to the `colors-dark.css` file with `colors-light.css` if you don't like light-on-dark.
+* **Linkblog support** — Solar will turn your post title into an external link if you add `external-url: http://example.org` to a post's YAML front matter.
+* **Responsive Design** — Solarized adapts to fit any screen size.
+
+
 Installation
 --------------
 
@@ -19,6 +30,12 @@ If you're wanting to replace the theme of an existing Jekyll blog, either option
 5. `index.xml`
 
 You'll also want to compare Solar's `_config.yml` with your own, making any appropriate changes.
+
+
+Demo
+-------
+
+You can see a demo of Solar [right here on GitHub Pages.](http://redwallhp.github.io/solar-theme-jekyll/)
 
 
 License

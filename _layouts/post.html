@@ -6,10 +6,10 @@ layout: default
 	{% if page.external-url %}
 		<h1>
 			<a href="{{ page.external-url }}">{{ page.title }}</a> 
-			<a class="anchor" href="{{ site.url }}{{ page.url }}"><i class="icon-anchor"></i></a>
+			<a class="anchor" href="{{ site.baseurl }}{{ page.url }}"><i class="icon-anchor"></i></a>
 		</h1>
 	{% else %}
-		<h1><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></h1>
+		<h1><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h1>
 	{% endif %}
 
 	<div class="post-content">{{ content }}</div>

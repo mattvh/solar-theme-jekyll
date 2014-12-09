@@ -35,7 +35,7 @@ You'll also want to compare Solar's `_config.yml` with your own, making any appr
 Demo
 -------
 
-You can see a demo of Solar [right here on GitHub Pages.](http://redwallhp.github.io/solar-theme-jekyll/)
+You can see a demo of Solar [right here on GitHub Pages.](http://mattvh.github.io/solar-theme-jekyll/)
 
 
 License

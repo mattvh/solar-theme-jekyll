@@ -4,6 +4,6 @@ description: A stylish blog using the Solarized color palette
 
 permalink: /:year/:month/:day/:title/
 paginate: 10
-hilighter: pygments
+highlighter: pygments
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']

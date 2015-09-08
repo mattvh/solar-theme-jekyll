@@ -47,7 +47,7 @@ a:hover {
 	color: #000000;
 }
 
-p { margin-bottom: 15px; }
+p, pre { margin-bottom: 15px; }
 ul, ol { padding: 0 0 18px 30px; }
 ol li, ul li { margin-top: 10px; margin-bottom: 10px; }
 em, i { font-style: italic; }
